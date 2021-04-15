@@ -11,16 +11,16 @@ Features:
     importantly, completely safe and sandboxed.
 
 > Note: [Rust][rust] is required to install the Ruby library (Cargo
-—the build tool for Rust— is used to compile the extension). See [how
-to install Rust][install-rust].
+— the build tool for Rust — is used to compile the extension).
 
 [Wasmer]: https://github.com/wasmerio/wasmer
 [rust]: https://www.rust-lang.org/
-[install-rust]: https://www.rust-lang.org/tools/install
 
 # Install
 
-To install the `wasmer` Ruby gem, just run this command in your shell:
+First [install Rust][https://www.rust-lang.org/tools/install].
+
+Then install the `wasmer` Ruby gem:
 
 ```sh
 $ gem install wasmer
